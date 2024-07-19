@@ -19,8 +19,8 @@ const createPdf = async (req, res) => {
         ${education}
         ${experience}
         ${project}
-        ${achievement}
         ${skills}
+        ${achievement}
         \\end{document}`;
 
     try {

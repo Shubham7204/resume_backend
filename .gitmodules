@@ -1,0 +1,3 @@
+[submodule "resumebuilderbackend"]
+    path = resumebuilderbackend
+    url = https://github.com/Shubham7204/resumebuilderbackend.git
