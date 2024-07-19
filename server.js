@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
-const directorySetup = require('./directorySetup'); // Import the directory setup module
+const setupDirectories = require('./directorySetup'); // Import the setupDirectories function
 
 const app = express();
 const port = process.env.PORT || 3000; // Use environment port or default to 3000
 
 // Run directory setup
-directorySetup(); // Ensure directories are set up
+setupDirectories(); // Ensure directories are set up
 
 // Enable CORS for all routes
 app.use(cors());

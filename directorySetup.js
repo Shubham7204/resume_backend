@@ -16,5 +16,9 @@ const tempDir = path.resolve(__dirname, 'temp');
 const pdfFilesDir = path.resolve(__dirname, 'pdfFiles');
 
 // Create the directories
-ensureDirectoryExists(tempDir);
-ensureDirectoryExists(pdfFilesDir);
+const setupDirectories = () => {
+    ensureDirectoryExists(tempDir);
+    ensureDirectoryExists(pdfFilesDir);
+};
+
+module.exports = setupDirectories;
